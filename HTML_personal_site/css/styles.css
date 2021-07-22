@@ -1,0 +1,22 @@
+body {
+  background-color: azure;
+}
+
+hr {
+  /* border-style: dotted none none; */
+  border-style: none;
+  border-top-style: dotted;
+  /* height: 2px; */
+  width:70%;
+  /* background-color:white; */
+  border-width: 5px;
+  border-color: royalblue;
+}
+
+h1 {
+  color:skyblue
+}
+
+h3 {
+  color:navy;
+}
