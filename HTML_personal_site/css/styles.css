@@ -26,7 +26,11 @@ h3 {
     And for one stuff we can give more class attributes */
 
 .profile {
-  width: 25%
+  width: 25%;
+}
+
+img:hover {
+  background-color : gold;
 }
 
 
