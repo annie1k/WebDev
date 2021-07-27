@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #71C9CE;
+  background-color: #BAF8FF;
 }
 
 h1 {
@@ -23,4 +23,12 @@ h1 {
   background-color:blue;
   width:200px;
   height:200px;
+}
+
+.major {
+  text-decoration:underline;
+}
+
+.profile {
+  width:25%;
 }
