@@ -15,6 +15,7 @@ h1 {
   position:relative;
   top:0;
   background-color: #BAF8FF;
+  padding-top:5%;
 }
 
 .middle-container {
@@ -43,6 +44,6 @@ h1 {
 
 .bottom-cloud {
   position:absolute;
-  left: 15%;
-  bottom:60%;
+  left: 10%;
+  bottom:50%;
 }
