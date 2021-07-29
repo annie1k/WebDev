@@ -36,14 +36,20 @@ h1 {
   right:auto;
 }
 
-.top-cloud {
+.top-candy {
   position:absolute;
+
+  max-height:20%;
+  max-width:20%;
   right:10%;
   top:2%;
 }
 
-.bottom-cloud {
+.bottom-candy {
   position:absolute;
+
+  max-height:20%;
+  max-width:20%;
   left: 10%;
   bottom:50%;
 }
