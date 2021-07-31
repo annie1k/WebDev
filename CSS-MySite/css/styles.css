@@ -65,6 +65,11 @@ h3 {
   margin: 10px auto 10px auto;
 }
 
+.binary-code {
+  max-height:15%;
+  max-width:15%;
+}
+
 .top-candy {
   position:absolute;
 
