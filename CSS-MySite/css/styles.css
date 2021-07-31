@@ -67,22 +67,27 @@ h3 {
 
 
 
-.top-candy {
+.top-code {
   position:absolute;
 
-  max-height:20%;
-  max-width:20%;
+  max-height:10%;
+  max-width:10%;
   right:10%;
   top:2%;
 }
 
-.bottom-candy {
+.bottom-code {
   position:absolute;
 
-  max-height:20%;
-  max-width:20%;
+  max-height:10%;
+  max-width:10%;
   left: 10%;
   bottom:30%;
+}
+
+.programming-gif {
+  max-width:150%;
+  max-height:150%;
 }
 
 
