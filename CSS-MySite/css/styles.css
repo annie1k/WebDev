@@ -85,14 +85,34 @@ h3 {
   bottom:30%;
 }
 
+
+
 .projects-row {
   width:50%;
-  margin: 5% auto 5% auto;
+  margin:auto auto 15% auto;
   text-align:left;
   line-height:150%
 }
 
 .language {
+  float:left;
   max-height:25%;
   max-width:25%;
+  margin-right:15%;
+  /* margin:10% 0% 10% 10%; */
+}
+
+.language-right {
+  float:left;
+  max-height:25%;
+  max-width:25%;
+  /* margin:10% 0% 10% 10%; */
+}
+
+.title {
+  margin:auto auto 5% auto;
+}
+
+.description-skill {
+  font-size:120%;
 }
