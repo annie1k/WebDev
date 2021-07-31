@@ -1,8 +1,19 @@
 body {
   margin: 0;
-  background-color: #C9F9FF;
+  background-color: #EEFAFA;
   text-align: center;
   font-family: 'Merriweather', serif;
+}
+
+hr {
+  /* border-style: dotted none none; */
+  border-style: none;
+  border-top-style: dotted;
+  /* height: 2px; */
+  width:70%;
+  /* background-color:white; */
+  border-width: 5px;
+  border-color: royalblue;
 }
 
 h1 {
@@ -115,7 +126,7 @@ h3 {
 }
 
 .title {
-  margin:auto auto 5% auto;
+  margin:5% auto 5% auto;
 }
 
 .description-skill {
