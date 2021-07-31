@@ -65,10 +65,7 @@ h3 {
   margin: 10px auto 10px auto;
 }
 
-.binary-code {
-  max-height:15%;
-  max-width:15%;
-}
+
 
 .top-candy {
   position:absolute;
@@ -86,4 +83,16 @@ h3 {
   max-width:20%;
   left: 10%;
   bottom:30%;
+}
+
+.projects-row {
+  width:50%;
+  margin: 5% auto 5% auto;
+  text-align:left;
+  line-height:150%
+}
+
+.language {
+  max-height:25%;
+  max-width:25%;
 }
