@@ -10,10 +10,11 @@ hr {
   border-style: none;
   border-top-style: dotted;
   /* height: 2px; */
-  width:70%;
+  width:15%;
   /* background-color:white; */
-  border-width: 5px;
-  border-color: royalblue;
+  border-width: 10px;
+  border-color: #C0C0C0;
+  margin: 2% auto 2% auto;
 }
 
 h1 {
@@ -110,6 +111,13 @@ h3 {
   line-height:150%
 }
 
+.projects-row-last {
+  width:50%;
+  margin:auto auto 10% auto;
+  text-align:left;
+  line-height:150%
+}
+
 .language {
   float:left;
   max-height:25%;
@@ -124,6 +132,7 @@ h3 {
   max-width:25%;
   /* margin:10% 0% 10% 10%; */
 }
+
 
 .title {
   margin:5% auto 5% auto;
