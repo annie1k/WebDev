@@ -4,10 +4,24 @@
   font-weight: 900;
   font-size: 3rem;
   line-height:1.5;
-
+  color:#171717;
 }
 
 .iphone12 {
+  padding-left:10%;
   max-width:90%;
   max-height:90%;
+  /* transform: rotate(12deg); */
+}
+
+.nav-link {
+  font-family: 'Georama', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+
+p {
+  color:#8f8f8f;
 }

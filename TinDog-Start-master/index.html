@@ -9,6 +9,9 @@
   <meta charset="utf-8">
 
   <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Georama:ital@1&family=Indie+Flower&family=Varela+Round&display=swap" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
@@ -18,7 +21,16 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,700;1,400&family=Indie+Flower&family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,700;1,400&family=Indie+Flower&family=Montserrat:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/3ad7281b02.js" crossorigin="anonymous"></script>
 
@@ -39,6 +51,29 @@
 
   .container-fluid {
     padding: 3% 20%;
+  }
+
+  .navbar-light .navbar-brand {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #FDF6F0;
+  }
+
+  #features {
+    padding: 7% 15%;
+  }
+
+  .feature_box {
+    text-align: center;
+    padding: 5%;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
   }
 </style>
 
@@ -98,14 +133,22 @@
 
   <section id="features">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="row">
+      <div class="feature_box col-lg-4">
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+      <div class="feature_box col-lg-4">
+        <h3>Elite Design</h3>
+        <p>We have name card for misaka 10032, the cuttest sister.</p>
+      </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+      <div class="feature_box col-lg-4">
+        <h3>Show it off.</h3>
+        <p>Show it to other fans proundly.</p>
+      </div>
+    </div>
 
   </section>
 
