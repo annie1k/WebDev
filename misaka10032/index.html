@@ -62,27 +62,54 @@
   }
 
   #features {
-    padding: 7% 13%;
+    padding: 3% 13%;
+    /* background-color:#fff;
+    z-index: 1;
+    position: relative; */
   }
 
   #testimonials {
     padding: 7% 15%;
     text-align: center;
-    background-color:#53B8BB;
+    background-color: #53B8BB;
     color: #FDF6F0;
   }
 
   #press {
-    padding-bottom:3%;
+    padding-bottom: 3%;
     text-align: center;
-    background-color:#53B8BB;
+    background-color: #53B8BB;
   }
 
+  #pricing {
+    padding: 5% 11%;
+  }
+
+  #cta {
+    padding: 5% 11%;
+    text-align: center;
+    background-color: #53B8BB;
+  }
+
+  #b1 {
+    margin-right:2%;
+  }
+
+  #b2 {
+    margin-left:2%;
+  }
+
+  #footer {
+    /* background-color: #000; */
+    padding: 7% 15%;
+    text-align: center;
+
+  }
   h2 {
     font-family: "Montserrat";
     font-weight: 700;
     font-size: 3rem;
-    line-height:1.5;
+    line-height: 1.5;
   }
 
   .feature_box {
@@ -96,8 +123,8 @@
     font-size: 1.5rem;
   }
 
-  .icon{
-    color:#1EAE98;
+  .icon {
+    color: #1EAE98;
     margin-bottom: 9%;
   }
 </style>
@@ -119,13 +146,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Characters</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Donation</a>
+              <a class="nav-link" href="#pricing">Donation</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -197,7 +224,7 @@
       <div class="carousel-item active">
         <section id="testimonials">
 
-          <h2>I can use digital name card anytime online or offline~</h2>
+          <h2>I can use digital name card anytime offline~</h2>
           <img class="misaka-profile" src="images/misaka-profile.jpg" alt="misaka-profile">
           <em>sister1, Heaven</em>
 
@@ -243,10 +270,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img class = "press-logo" src="images/dreamwork.png" alt="dw-logo">
-    <img class = "press-logo" src="images/aniplex.png" alt="aniplex-logo">
-    <img class = "press-logo" src="images/gib.png" alt="gib-logo">
-    <img class = "press-logo-lg" src="images/manga.png" alt="manga-logo">
+    <img class="press-logo" src="images/dreamwork.png" alt="dw-logo">
+    <img class="press-logo" src="images/aniplex.png" alt="aniplex-logo">
+    <img class="press-logo" src="images/gib.png" alt="gib-logo">
+    <img class="press-logo-lg" src="images/manga.png" alt="manga-logo">
 
   </section>
 
@@ -255,57 +282,83 @@
 
   <!-- Pricing -->
 
+
   <section id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <h2>We Need Your Support</h2>
+    <p>Varioius donation plan to support our authentic digital dreamwork.</p>
 
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Volunteer Worker</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">We <small class="text-muted fw-light">need</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Web developer.</li>
+              <li>Mobile UI/UX engineer.</li>
+              <li>Designer.</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Join us right now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">One time Donation</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$50<small class="text-muted fw-light">/one time</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Receive 3 weekly report on our project.</li>
+              <li>Gain Misaka high resolution images.</li>
+              <li>Priority email support</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-secondary">Donate</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-white bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Lifelong subscriber</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$?<small class="text-muted fw-light">/yr</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Receive detailed process outcomes.</li>
+              <li>Gain customized profile image.</li>
+              <li>Highest priority support.</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 
   <!-- Call to Action -->
 
   <section id="cta">
-
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <h3 class="callagain">Download your digital Misaka Today.</h3>
+    <button id="b1" type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>Download</button>
+    <button id="b2" type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i>Download</button>
   </section>
-
 
   <!-- Footer -->
 
   <footer id="footer">
-
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
     <p>© Copyright 2021 AnimeFanDigital</p>
-
   </footer>
+
 
 
 </body>

@@ -12,6 +12,8 @@
   padding-left:10%;
   max-width:70%;
   /* transform: rotate(12deg); */
+  /* position: absolute; */
+  /* right:20%; */
 }
 
 .nav-link {
@@ -44,3 +46,19 @@ p {
   max-width:6%;
   margin: 0% 3% 3%;
 }
+.callagain {
+  margin-bottom: 5%;
+  font-family: 'Georama';
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #FDF6F0;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+/* Media Query Breakpoints */
+/* @media screen (min-width:900px) and (max-width:900px) {
+  //do sth.
+} */
