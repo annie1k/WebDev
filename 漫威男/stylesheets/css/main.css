@@ -1,0 +1,144 @@
+@CHARSET 'UTF-8';
+.header {
+  background: no-repeat center right fixed url(../../images/back.jpg);
+  background-size: 100%;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/back.jpg', sizingMethod='scale');
+  margin-bottom: 0px;
+  padding: 0px;
+  height: 650px; }
+  .header .overlay {
+    background-color: #22A39F;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.75;
+    z-index: 2; }
+  .header .header-title {
+    position: relative;
+    top: 28%;
+    z-index: 4;
+    text-align: center; }
+    .header .header-title > * {
+      text-align: center;
+      color: #FFFFFF; }
+    .header .header-title h1 {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #FFFFFF;
+      border-bottom-color: rgba(255, 255, 255, 0.35);
+      display: inline-block;
+      font-weight: 700px; }
+    .header .header-title .sub-title {
+      font-size: 28px; }
+  .header .scroll-down {
+    height: 80px;
+    width: 110px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    background-color: #222222;
+    text-align: center;
+    z-index: 6; }
+    .header .scroll-down .down-arrow {
+      color: #FFFFFF;
+      font-size: 30px;
+      padding-right: 2px;
+      padding-top: 20px;
+      animation-name: ani-arrow;
+      animation-duration: 1.2s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: normal; }
+@keyframes ani-arrow {
+  0% {
+    padding-top: 20px; }
+  50% {
+    padding-top: 28px; }
+  100% {
+    padding-top: 20px; } }
+h1, h4 {
+  font-weight: 700;
+  margin-bottom: 10px; }
+
+h2, h3 {
+  font-weight: 300;
+  color: #22A39F; }
+
+h2 {
+  font-size: 54px;
+  text-align: center; }
+
+h3 {
+  font-size: 28px; }
+
+hr {
+  width: 90%; }
+
+.bg-white {
+  background: #FFFFFF;
+  position: relative;
+  top: 50px;
+  z-index: 4;
+  text-align: center;
+  margin-bottom: 20px; }
+  .bg-white .profile h2 {
+    font-size: 54px;
+    text-align: center;
+    color: #59bab7;
+    font-weight: 200px; }
+  .bg-white .profile p {
+    text-align: center;
+    color: #727878;
+    font-size: 20px;
+    font-weight: 100; }
+  .bg-white .profile .sub-content {
+    margin-bottom: 20px;
+    margin-top: 40px; }
+    .bg-white .profile .sub-content h3 {
+      font-weight: 300;
+      color: #22A39F;
+      text-align: left; }
+    .bg-white .profile .sub-content img {
+      width: 100%;
+      max-width: 246px;
+      height: auto; }
+    .bg-white .profile .sub-content P {
+      text-align: left;
+      font-size: 18px;
+      color: black; }
+    .bg-white .profile .sub-content .right-content p {
+      color: black; }
+    .bg-white .profile .sub-content .right-content .t-btn {
+      float: left; }
+    .bg-white .profile .sub-content .right-content .f-sub-content {
+      color: black; }
+
+.experiences {
+  background-color: #efe9d2;
+  margin-top: 60px;
+  text-align: center;
+  height: auto; }
+  .experiences .e-title {
+    padding-top: 50px;
+    color: #22a39f;
+    font-weight: 100; }
+  .experiences .e-p-title {
+    color: #727878;
+    font-size: 20px;
+    font-weight: 100; }
+  .experiences .education {
+    text-align: left; }
+  .experiences .row {
+    padding-bottom: 20px; }
+  .experiences .a-title {
+    font-size: 20px; }
+  .experiences .experience-details {
+    display: block;
+    color: #22A39F; }
+  .experiences .seperator {
+    color: #BCBCBC; }
+
+/*# sourceMappingURL=main.css.map */
