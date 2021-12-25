@@ -14,3 +14,4 @@ if (randomVar1 > randomVar2) {
 } else {
   document.querySelector("h1").innerHTML = "DRAW!!!";
 }
+1
