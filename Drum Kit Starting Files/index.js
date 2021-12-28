@@ -41,7 +41,10 @@ function handleClick() {
 }
 
 
-document.addEventListener("keypress", handlePress);
+document.addEventListener("keypress", function(event) {
+    handlePress(event);
+    buttonAnimation(event.key);
+});
 
 function handlePress (event) {
     switch(event.key) {
@@ -69,4 +72,13 @@ function handlePress (event) {
         default:
             console.log("wrong")
     }
+}
+
+
+function buttonAnimation(key) {
+    var activeButton = document.querySelector("." + key);
+    activeButton.classList.add("pressed");
+    setTimeout(function() {
+        activeButton.classList.remove("pressed");
+    }, 100);
 }
