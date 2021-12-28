@@ -41,3 +41,32 @@ function handleClick() {
 }
 
 
+document.addEventListener("keypress", handlePress);
+
+function handlePress (event) {
+    switch(event.key) {
+        case "w":
+            tom1W.play();
+            break;
+        case "a":
+            tom2A.play();
+            break;
+        case "s":
+            tom3S.play();
+            break;
+        case "d":
+            tom4D.play();
+            break;
+        case "j":
+            snareJ.play();
+            break;
+        case "k":
+            crashK.play();
+            break;
+        case "l":
+            kickL.play();
+            break;
+        default:
+            console.log("wrong")
+    }
+}
