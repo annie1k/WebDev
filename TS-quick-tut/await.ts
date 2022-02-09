@@ -8,7 +8,7 @@ const postsAwait = [
 function getPostsAwait() {
     setTimeout(() =>{
         let output = '';
-        posts.forEach((post) => {
+        postsAwait.forEach((post) => {
             output += post.title;
         });
         console.log(output);
@@ -32,7 +32,7 @@ function createPostAwait(postsAwait) {
 }
 
 async function init() {
-    await createPostPromise({title: 'Post 3', body: 'This is post 3'});
+    await createPostAwait({title: 'Post 3', body: 'This is post 3'});
     getPostsAwait();
 }
 
